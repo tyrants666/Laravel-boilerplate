@@ -1,0 +1,42 @@
+
+// COPY PASTE CACULATOR http://www.javascriptkit.com/script/cut42.shtml
+$vwm: 0.3125vw; //320px; Minimum for Mobile
+$vw: 0.13020833333333334vw; //768px; Minimum for Tablet & Above
+
+$mobile-width: 20em; // 320/16   || 16px is default browser's pixel     
+$tablet-width: 48em; // 768/16   || 16px is default browser's pixel
+$desktop-width: 62em; // 991/16   || 16px is default browser's pixel
+// $desktop-width: 64em; // 1024/16   || 16px is default browser's pixel
+
+@mixin mobile {
+    @media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 0.0625em}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$desktop-width + 0.0625em}) {
+        @content;
+    }
+}
+
+@mixin mobiletablet {
+    @media (min-width: #{$mobile-width}) and (max-width: #{$desktop-width}) {
+        @content;
+    }
+} 
+
+/* Root 1rem = 1px
+--------------------------------------------- */
+
+@include mobiletablet {
+    html {
+        font-size: 6.25%;
+    }
+}
