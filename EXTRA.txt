@@ -1,4 +1,7 @@
 
+-- Postcss autoprefixer
+-- Include all.css & app.js & check jQuery
+-- EXTRA.txt not working in git ignore file
 
 -- npm owl carousel 
 -- npm mousescroll used in Wienberg

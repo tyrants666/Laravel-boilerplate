@@ -16,7 +16,7 @@ mix.js('resources/js/app.js', 'public/js');
 mix.sass('resources/sass/app.scss', 'public/css/app.css');
 
 mix.styles([
-        'public/css/app.css',       //Add above compiled app.css file
+        // 'public/css/app.css',       //Add above compiled app.css file
         'public/css/animate.css'
     ], 'public/css/all.css');
     // .options({                         //Writes Auto Prefixes for all css
@@ -24,3 +24,7 @@ mix.styles([
     //         require('postcss-css-variables')()
     //     ]
     // });
+
+// mix.postCss('resources/css/app.css', 'public/css', [
+//     require('postcss-custom-properties')
+// ]);

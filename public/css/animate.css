@@ -1,3 +1,6 @@
 .x {
     width: fit-content;
 }
+.x::placeholder {
+    color:red;
+}
