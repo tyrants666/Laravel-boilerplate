@@ -11,7 +11,7 @@
 -- Create github READMEFILE file for LARAVEL boilerplate
 
 -- Require owl-carousel in bootstreap.js
-
+-- Put Js in bootom other than jquery
 
 
 
@@ -24,6 +24,8 @@ Sass compiled files are auto prefixed by mix
 
 -- Owl carousel js Added
 -- Animate css
+-- Test blade file added
+-- Head, Footer, Footer script yielded title
 
 
 CSS -- Add all css inside inc folder and include in mixin file

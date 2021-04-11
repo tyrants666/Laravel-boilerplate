@@ -11,27 +11,5 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js');
-
-mix.sass('resources/sass/app.scss', 'public/css/app.css');
-
-mix.styles([
-    // 'public/css/inc/app.css',        //Add above compiled app.css file
-    'public/css/inc/custom.css',
-    'public/css/inc/animate.css',
-    // 'public/css/inc/owl.carousel.min.css',
-    // 'public/css/inc/owl.theme.default.min.css',
-], 'public/css/all.css');   
-
-// mix.postCss('public/css/all-imported.css', 'public/css/all-prefixed.css');   // Writes Auto Prefixes for all imported css
-
-
-/*
- |--------------------------------------------------------------------------
- | Notes :- 
- |--------------------------------------------------------------------------*/
-
-//  -- yarn watch compiles in loop
-//  -- use mix.postcss instead of mix.styles because after "yarn prod" the output file of postCss gets minified & prefixed whereas in mix.style only gets minfied
-//  -- mix.postCss -- gives error if minifed files is imported inside all-imported.css and compiled
-//  -- Try to avoid minified files inside mix
+mix.js('resources/js/app.js', 'public/js')
+    .sass('resources/sass/app.scss', 'public/css');

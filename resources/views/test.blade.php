@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title','Welcome')
+@section('title','Test')
 
 {{-- @section('head')
     <script src="{{ asset('js/owl.carousel.min.js') }}" async></script>
@@ -18,5 +18,4 @@
 @endsection
 
 {{-- @yield('footer-script')
-
 @endsection --}}
