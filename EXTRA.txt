@@ -7,3 +7,26 @@
 -- npm mousescroll used in Wienberg
 -- Webpack mixin file postcss/autoprefixer
 -- animate file
+
+-- Create github READMEFILE file for LARAVEL boilerplate
+
+-- Require owl-carousel in bootstreap.js
+
+
+
+
+
+------------------------ DEPENDENCIES ---------------------------------------
+
+Yarn instead of npm (for yarn remove package.lock.json)
+Sass compiled files are auto prefixed by mix
+
+
+-- Owl carousel
+-- Animate css
+
+
+CSS -- Add all css inside inc folder and include in mixin file
+JS -- yarn install package -- import inside bootstrap.js file -- run the yarn
+
+app.js main file

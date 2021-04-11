@@ -8,6 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{{asset('css/all-prefixed.css')}}">
 
         <!-- Styles -->
         <style>
@@ -79,7 +80,7 @@
                 </div>
             @endif
 
-            <div class="content">
+            <div class="content bg-green">
                 <div class="title m-b-md">
                     Restaurants
                 </div>
