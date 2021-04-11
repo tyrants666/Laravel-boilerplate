@@ -8,7 +8,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="{{asset('css/all-prefixed.css')}}">
+        <link rel="stylesheet" href="{{asset('css/all.css')}}">
+        <script src="{{asset('js/app.js')}}"></script>
 
         <!-- Styles -->
         <style>
@@ -84,7 +85,34 @@
                 <div class="title m-b-md">
                     Restaurants
                 </div>
+                <div class="owl-carousel owl-theme noloop">
+                    <div class="item"><h4>1</h4></div>
+                    <div class="item"><h4>2</h4></div>
+                    <div class="item"><h4>3</h4></div>
+                    <div class="item"><h4>4</h4></div>
+                    <div class="item"><h4>5</h4></div>
+                    <div class="item"><h4>6</h4></div>
+                    <div class="item"><h4>7</h4></div>
+                    <div class="item"><h4>8</h4></div>
+                    <div class="item"><h4>9</h4></div>
+                    <div class="item"><h4>10</h4></div>
+                    <div class="item"><h4>11</h4></div>
+                    <div class="item"><h4>12</h4></div>
+                </div>
             </div>
         </div>
     </body>
+
+        <script>
+            $(document).ready(function () {
+                $('.noloop').owlCarousel({
+                    center: true,
+                    items:3,
+                    loop:true,
+                    margin:10
+                });
+            });
+
+        </script>
+
 </html>
