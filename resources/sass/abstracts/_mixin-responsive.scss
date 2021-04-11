@@ -35,8 +35,8 @@ $desktop-width: 62em; // 991/16   || 16px is default browser's pixel
 /* Root 1rem = 1px
 --------------------------------------------- */
 
-@include mobiletablet {
-    html {
-        font-size: 6.25%;
-    }
-}
+// @include mobiletablet {
+//     html {
+//         font-size: 6.25%;
+//     }
+// }
