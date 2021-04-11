@@ -22,7 +22,7 @@ Yarn instead of npm (for yarn remove package.lock.json)
 Sass compiled files are auto prefixed by mix
 
 
--- Owl carousel
+-- Owl carousel js Added
 -- Animate css
 
 

@@ -1,4 +1,5 @@
 window._ = require('lodash');
+// window.owlCarousel = require('owl.carousel');
 
 /**
  * We'll load jQuery and the Bootstrap jQuery plugin which provides support
@@ -10,6 +11,7 @@ try {
     window.Popper = require('popper.js').default;  
     window.$ = window.jQuery = require('jquery');
     require('bootstrap');
+    // require('owl.carousel');
 } catch (e) {}
 
 /**
